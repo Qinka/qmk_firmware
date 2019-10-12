@@ -30,10 +30,3 @@ script:
   - bash util/travis_build.sh
 after_script:
   bash util/travis_compiled_push.sh
-notifications:
-  webhooks:
-    urls:
-      - https://webhooks.gitter.im/e/afce403d65f143dfac09
-    on_success: always  # options: [always|never|change] default: always
-    on_failure: always  # options: [always|never|change] default: always
-    on_start: never     # options: [always|never|change] default: always
