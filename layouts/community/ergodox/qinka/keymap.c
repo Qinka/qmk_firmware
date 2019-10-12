@@ -38,7 +38,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_APPLICATION, KC_TRANSPARENT, KC_LGUI,        KC_LALT,        KC_LSHIFT,                                                                                                      TT(1),          KC_SPACE,       KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT,
                                                                                                     KC_CAPSLOCK,    KC_TRANSPARENT, TO(3),          TO(1),
                                                                                                                     TT(1),          LCTL(LSFT(KC_P)),
-                                                                                    LSFT_T(KC_SPACE),KC_LSHIFT,      KC_BSPACE,      LCTL(KC_SLASH), TT(1),          LT(1,KC_ENTER)
+                                                                                    KC_SPACE,       KC_LSHIFT,      KC_BSPACE,      LCTL(KC_SLASH), TT(1),          KC_ENTER
   ),
   [1] = LAYOUT_ergodox_pretty(
     KC_GRAVE,       KC_F1,          KC_F2,          KC_F3,          KC_F4,          KC_F5,          KC_F11,                                         KC_F12,         KC_F6,          KC_F7,          KC_F8,          KC_F9,          KC_F10,         KC_DELETE,
